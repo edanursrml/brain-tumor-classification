@@ -1,4 +1,4 @@
 # brain-tumor-classification
 MATLAB ile tümör görüntü sınıflandırma projesi
-Bu proje, Kaggle üzerinden sağlanan “Brain MRI Images for Brain Tumor Detection” veri seti kullanılarak beyin MRI görüntülerinde tümör tespiti ve sınıflandırması amacıyla geliştirilmiştir. MATLAB ortamında transfer öğrenme yöntemiyle çalışılmış ve önceden eğitilmiş GoogLeNet ve AlexNet modelleri kullanılmıştır. Projede, tümörlü ve tümörsüz görüntülerin ayırt edilmesi hedeflenmiş, eğitim sonrası elde edilen başarı oranları grafiklerle desteklenmiş ve kullanıcı dostu bir arayüz tasarlanarak uygulamanın etkileşimli hale getirilmesi sağlanmıştır.
+Bu proje, beyin MRI görüntüleri üzerinden tümör tespiti yapmak amacıyla geliştirilmiş bir derin öğrenme uygulamasıdır. Projede, brain_tumor_dataset veri seti kullanılarak CNN tabanlı özel bir model (Residual CNN) ve transfer öğrenme yöntemiyle fine-tune edilmiş MobileNetV2 modeli eğitilmiştir. GUI arayüzü ile kullanıcılar görsel yükleyerek hızlı bir şekilde tümör olup olmadığını test edebilmektedir. MATLAB ortamında geliştirilmiştir.
 VeriSETİ: https://www.kaggle.com/datasets/navoneel/brain-mri-images-for-brain-tumor-detection?resource=download 
